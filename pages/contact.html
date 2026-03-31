@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+     <header><h1>The Daily Grind</h1></header>
+
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="products_services.html">Menu</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="events.html">Events</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+    </nav>
+
+    <main>
+
+      <section id="location">
+        <h2>Location &amp; Hours</h2>
+        <address>
+          <p>123 Main Road, Sedgefield, Western Cape, 6573</p>
+          <p>Email: <a href="mailto:hello@thedailygrind.co.za">hello@thedailygrind.co.za</a></p>
+          <p>Phone: <a href="tel:+27441234567">044 123 4567</a></p>
+        </address>
+        <p><strong>Monday – Saturday:</strong> 7am – 5pm</p>
+        <p><strong>Sunday:</strong> 8am – 3pm</p>
+
+        <!-- EMBEDDED GOOGLE MAP -->
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3310.0!2d22.9!3d-33.97!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2sSedgefield!5e0!3m2!1sen!2sza!4v1234567890"
+          width="600"
+          height="450"
+          style="border:0;"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          title="The Daily Grind location on Google Maps">
+        </iframe>
+      </section>
+
+      <section id="contact-form">
+        <h2>Get in Touch</h2>
+        <p>For general enquiries or catering requests, fill in the form below.</p>
+
+        <form action="#" method="post">
+
+          <label for="name">Full Name</label>
+          <input type="text" id="name" name="name" placeholder="Your name" required />
+
+          <label for="email">Email Address</label>
+          <input type="email" id="email" name="email" placeholder="your@email.com" required />
+
+          <label for="subject">Subject</label>
+          <select id="subject" name="subject">
+            <option value="general">General Enquiry</option>
+            <option value="catering">Catering Request</option>
+            <option value="events">Events</option>
+            <option value="other">Other</option>
+          </select>
+
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="6" placeholder="Write your message here..." required></textarea>
+
+          <button type="submit">Send Message</button>
+
+        </form>
+      </section>
+
+      <section id="faqs">
+        <h2>FAQs</h2>
+
+        <details>
+          <summary>Do you have Wi-Fi?</summary>
+          <p>Yes — free Wi-Fi for all customers. Ask at the counter for the password.</p>
+        </details>
+
+        <details>
+          <summary>Do you have vegan options?</summary>
+          <p>Absolutely. Oat milk, almond milk, and soy milk are available. Several food items are vegan — just ask our staff.</p>
+        </details>
+
+        <details>
+          <summary>Is there parking?</summary>
+          <p>Yes, free parking is available directly in front of the shop and in the municipal lot next door.</p>
+        </details>
+
+        <details>
+          <summary>Can I book the space for a private event?</summary>
+          <p>We do offer after-hours bookings for private events. Use the contact form above or email us directly.</p>
+        </details>
+
+      </section>
+
+    </main>
+
+    <footer>
+      <p>123 Main Road, Sedgefield, Western Cape</p>
+      <p>&copy; 2026 The Daily Grind. All rights reserved.</p>
+    </footer>
+
+  </body>
+</html>
